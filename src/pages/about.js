@@ -4,9 +4,9 @@ import { Link } from "gatsby"
 
 import Header from "../components/header"
 
-export default function Home() {
-  return (
-  <div style={{color: 'purple'}}>
+export default function About(){
+    return (
+        <div style={{color: 'purple'}}>
     <div style={{
       display: "flex",
       flexDirection: "row",
@@ -16,8 +16,8 @@ export default function Home() {
     <Link to="/about" style={{marginRight: 10}}>About</Link>
     <Link to="/contact" style={{marginRight: 10}}>Contact</Link>
     </div>
-    <Header headerText='Creative Developer' />
-    <p>Welcome to my website</p>
-  </div>
-  )
+            <Header headerText='About me' />
+            <p>I am UX/UI Designer and Creative Developer.</p>
+        </div>
+    )
 }
